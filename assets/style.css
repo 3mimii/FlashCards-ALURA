@@ -1,11 +1,11 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #941212;
+    --card-front-color: #520404;
     --card-back-color: #33ff00;
 }
 
 body {
-    background: url('img/bg-desktop.webp');
+    background: url('img/borboleta.jpg');
     font-family: Bai Jamjuree;
 }
 
@@ -61,7 +61,7 @@ body {
     font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
@@ -76,16 +76,6 @@ body {
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
 }
-
-
-
-
-
-
-
-
-
-
 
 
 footer {
